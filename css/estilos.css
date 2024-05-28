@@ -1,0 +1,247 @@
+/* HOME*/
+body{
+    padding: 0px;
+	margin: 0px;
+    background: rgb(17,34,51);
+    background: linear-gradient(172deg, rgba(17,34,51,1) 0%, rgba(98,29,209,1) 58%, rgba(37,117,252,0.4) 100%);
+}
+.menu{
+    background: #00000066;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+    padding-bottom: 0px;
+    margin: 0;
+}
+.logo{
+    display: flex;
+    flex-direction: inline-block;
+}
+.boton{
+    text-decoration: none;
+    list-style: none;
+    font-family: poppins;
+}
+.text-nav{
+    width: auto;
+    color: white;
+}
+.mi-nombre{
+    color: white;
+    font-family: poppins;
+    text-align: left;
+}
+.idioma{
+    border-color: white;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+    width: fit-content;
+}
+.banner{
+    height: auto;
+    width: 100%;
+	background-image: url("../imagenes/Banner.png");
+    margin: 0px;
+    background-size: cover;
+    background-position: center;
+    align-content: center;
+    background-repeat: no-repeat;
+    padding-bottom: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.mi-foto{
+    align-content: center;
+}
+.text-banner{
+    align-content: center;
+    width: fit-content;
+}
+.nombre{
+    color: white;
+    font-family: mako;
+    font-size: 70px;
+    margin: 0;
+}
+.text-1{
+    color: white;
+    font-family: poppins;
+    font-size: 26px;
+    font-weight: 200;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+button{
+    width: 220px;
+    height: 40px;
+    border-radius: 10px !important;
+    border-color: #25074D;
+    background-color: #F9F7FC;
+    font-weight: 500;
+    font-family: poppins;
+    color: #25074D;
+
+}
+button:hover{
+    background-color: #25074D;
+    color: white;
+
+}
+.carac-list{
+    padding: 20px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.caracteristicas{
+    list-style: none;
+}
+.icono{
+    width: hug;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #3041B1;
+    border-radius: 10px;
+    width: fit-content;
+}
+.text-item{
+    color: white;
+    font-family: poppins;
+    font-size: 22px;
+}
+.text-subitem{
+    color: white;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 200;
+}
+.seccion-proyec{
+    background-color: #270F55;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    align-content: center;
+}
+.titulo-proyectos{
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+.titulo-proyec{
+    color: white;
+    font-family: poppins;
+    margin-top: 20px;
+}
+.proyecto{
+    list-style: none;
+}
+.descripcion{
+    color: white;
+    font-family: poppins;
+}
+.seccion-contact{
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.conversemos{
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    padding: 20px;
+    background-color: #25074D;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+.botones-footer{
+    text-decoration: none;
+    list-style: none;
+}
+.text-footer{
+    color: white;
+}
+.logo-RS{
+    margin-left: 20px;
+    list-style: none;
+}
+/* PORTAFOLIO*/
+
+.banner-proyectos{
+    background-image: url("../imagenes/banner-proyectos.png");
+    height: auto;
+    width: 100%;
+    margin: 0px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    align-content: center;
+    background-repeat: no-repeat;
+
+}
+
+/* CONTACTAME*/
+
+.titulo-proyectos{
+    color: white;
+    font-family: poppins;
+}
+.dividido-color{
+    background-color: #3C1682;
+    padding: 20px;
+}
+.text-title{
+    color: white;
+    margin-top: 40px;
+}
+.form-all{
+    list-style: none;
+    margin-bottom: 40px;
+}
+.form-list{
+    color: white;
+    margin-bottom: 20px;
+    align-self: baseline;
+}
+
+/* BREAKPOINTS*/
+
+/* Large devices (desktops, less than 1200px) */
+@media only screen and (max-width: 1199px){
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media only screen and (max-width: 900px){
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media only screen and (max-width: 767px){
+   .img-proyect{
+    width: 280px;
+   }
+   .imagen-mensaje{
+    width: 280px;
+   }
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media only screen and (max-width: 575px){
+
+    .mi-foto{
+        width: 300px;
+    }
+    .banner{
+        padding: 0;
+        padding-bottom: 40px;
+    }
+    .imagen-1{
+        width: 300px;
+    }
+}
