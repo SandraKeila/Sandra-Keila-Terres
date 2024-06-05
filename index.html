@@ -23,26 +23,38 @@
 
 
 <body>
-    <header class="animate__animated animate__backInDown mi-nombre">
-        <nav class="navbar navbar-expand-lg"></div>   
-
-        <a class="navbar-brand" href="index.html"><img src="imagenes/mi-logo.png" alt="logo" width="40px"></a>
-        <div><p class="mi-nombre">Sandra Keila</p></div>    
-        
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#terres" aria-controls="terres" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-
-       <div class="collapse navbar-collapse" id="terres"></div>
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item"><a class="nav-link text-nav" href="portafolio.html">Portafolio</a></li>
-        <li class="nav-item"><a class="nav-link text-nav" href="sobre-mi.html">Sobre mi</a></li>
-        <li class="nav-item"><a class="nav-link text-nav" href="contactame.html">Contáctame</a></li>
-        <li class="nav-item "><div class="idioma"><p>ESP</p></div></li>
-    </ul></div>
-        </nav> 
+    <header class="menu">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #00000066">
+            <a class="navbar-brand" href="index.html"><img src="imagenes/logo-desk.png" alt="logo" width="140px" height="30px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-rigth" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link text-nav" href="portafolio.html">Portafolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-nav" href="sobre-mi.html">Sobre mi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-nav" href="contactame.html">Contáctame</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    ESP
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">ESP</a>
+                    <a class="dropdown-item" href="#">ING</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
     </header>
     <section class="row banner">
-        <div class="col-lg-6 mi-foto"><img class="mi-foto" src="imagenes/mi-foto.png" alt="foto"></div>
+        <div class="col-lg-6 cont-foto"><img class="mi-foto" src="imagenes/mi-foto.png" alt="foto"></div>
         <div class="col-lg-6 justify-content-center text-banner">
         <h1 class="nombre">¡Hola!</h1>
         <h2 class="nombre">Soy Sandra</h2>
@@ -50,7 +62,7 @@
         <a href="sobre-mi.html"><button>Conóceme</button></div></a>
     </section>
     <article class="carac-list">  
-        <ul class="row">
+        <ul class="row carac-list-2">
             <li class="col-md-4 m-20 justify-content-center caracteristicas">
                 <div class="icono"><img src="imagenes/icon-1.png" alt="icono"></div>
                 <h3 class="text-item">
@@ -86,17 +98,17 @@
     <h2 class="titulo-proyectos">Proyectos Realizados</h2>
     <div class="proyectos">
     <ul class="row lista-proyectos">
-        <li class="col-md-4 justify-content-center proyecto"><a href="portafolio-detalle.html">
+        <li class="col-lg-4 justify-content-center proyecto"><a href="portafolio-detalle.html">
             <img class="img-proyect" src="imagenes/proyecto-1.png" alt="imagen-proyecto">
             <h3 class="titulo-proyec">App Menu</h3>
             <p class="descripcion">App para mostrar el menú de los restaurantes, describiendo detalles de cada plato.</p>
         </a> </li>
-        <li class="col-md-4 justify-content-center proyecto"><a href="portafolio-detalle.html">
+        <li class="col-lg-4 justify-content-center proyecto"><a href="portafolio-detalle.html">
             <img class="img-proyect" src="imagenes/proyecto-2.png" alt="imagen-proyecto" >
             <h3 class="titulo-proyec">Sidebar Design</h3>
             <p class="descripcion">Diseño de menú lateral para configuración del usuario.</p>
         </a></li>
-        <li class="col-md-4 justify-content-center proyecto"><a href="portafolio-detalle.html">
+        <li class="col-lg-4 justify-content-center proyecto"><a href="portafolio-detalle.html">
             <img class="img-proyect" src="imagenes/proyecto-3.png" alt="imagen-proyecto">
             <h3 class="titulo-proyec">Grow App</h3>
             <p class="descripcion">Aplicación para ahorrar dinero mediante metas.</p>
@@ -104,17 +116,17 @@
     </ul>
 
     <ul class="row lista-proyectos">
-        <li class="col-md-4 justify-content-center proyecto"><a href="portafolio-detalle.html">
+        <li class="col-lg-4 justify-content-center proyecto"><a href="portafolio-detalle.html">
             <img class="img-proyect" src="imagenes/proyecto-4.png" alt="imagen-proyecto">
             <h3 class="titulo-proyec">Credipyme</h3>
             <p class="descripcion">Página web que proveer capital de  trabajo a aquellas personas que no tienen acceso a la banca formal.</p>
         </a></li> 
-        <li class="col-md-4 justify-content-center proyecto"><a href="portafolio-detalle.html">
+        <li class="col-lg-4 justify-content-center proyecto"><a href="portafolio-detalle.html">
             <img class="img-proyect" src="imagenes/proyecto-5.png" alt="imagen-proyecto">
             <h3 class="titulo-proyec">App Impresión</h3>
             <p class="descripcion">Proyecto universitario de extensión de la app  UCAL, para envío de impresión de trabajos.</p>
         </a></li>
-        <li class="col-md-4 justify-content-center proyecto"><a href="portafolio-detalle.html">
+        <li class="col-lg-4 justify-content-center proyecto"><a href="portafolio-detalle.html">
             <img class="img-proyect" src="imagenes/proyecto-6.png" alt="imagen-proyecto">
             <h3 class="titulo-proyec">La casa del alfajor</h3>
             <p class="descripcion">Página web para la venta de alfajores, mostrando la carta del productos.</p>
@@ -122,22 +134,21 @@
     </ul>
 
 </section>
-<section class="row seccion-contact">
-    <article class="col-lg-6 justify-content-center">
+<section class="row seccion-contact justify-content-center">
+    <article class="col-lg-6 contact justify-content-center">
         <div class="conversemos">
         <h2>Conversemos </h2>
         <p>Estoy aquí para ayudarte a llevar tu proyecto al siguiente nivel. ¡No dudes en escribirme o agendar una cita para comenzar a crear juntos una experiencia excepcional para tus usuarios!</p>
         <a href="contactame.html"><button>Contáctame</button></a></div>
     </article>
-    <article class="col-sm-6"> <img class="imagen-1" src="imagenes/ilustración-1.png" alt="imagen-02">
+    <article class="col-sm-6 justify-content-center"> <img class="imagen-1" src="imagenes/ilustración-1.png" alt="imagen-02">
     </article> </section>
     <footer>
-        <section class="row footer-contenido">
-        <div class="col-md-8 logo"><div class="row"><img src="imagenes/mi-logo.png" alt="logo" width="60px" height="50px">
-            <div class="col-11 mi-nombre"><p>Sandra Keila</p></div></div></div>
+        <section class="row footer-contenido justify-content-center">
+        <div class="col-md-8 logo"><div class="row logo"><img src="imagenes/logo-footer.png" alt="logo" width="100px" height="70px"></div></div>
         
         <nav>
-            <div class="col-md-2"><ul class="footer-boton justify-content-left">
+            <div class="col-md-2"><ul class="footer-boton">
                 <li class="botones-footer"><a class="text-footer" href="portafolio.html">Portafolio</a></li>
                 <li class="botones-footer"><a class="text-footer" href="sobre-mi.html">Sobre mi</a></li>
                 <li class="botones-footer"><a class="text-footer" href="contactame.html">Contáctame</a></li>
