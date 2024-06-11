@@ -1,0 +1,26 @@
+{
+  "name": "preentrega3_sandraterres",
+  "version": "1.0.0",
+  "description": "Portafolio Sandra Terres.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SandraKeila/Sandra-Keila-Terres.git"
+  },
+  "keywords": [
+    "UX",
+    "UI",
+    "diseño",
+    "Web",
+    "App"
+  ],
+  "author": "Sandra Terres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SandraKeila/Sandra-Keila-Terres/issues"
+  },
+  "homepage": "https://github.com/SandraKeila/Sandra-Keila-Terres#readme"
+}

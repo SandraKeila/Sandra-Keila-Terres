@@ -52,7 +52,7 @@ body{
 .banner{
     height: auto;
     width: 100%;
-	background-image: url("../imagenes/banner.jpg");
+	background-image: url("../../imagenes/banner.jpg");
     margin: 0px;
     background-size: cover;
     background-position: center;
@@ -64,6 +64,11 @@ body{
     padding-top: 80px;
     padding-left: 40px;
     padding-right: 40px;
+}
+.tamaño{
+    max-width: 1600px;
+    align-self: center;
+    justify-self: center;
 }
 @keyframes mi-foto {
     0%, 100% {
@@ -112,7 +117,6 @@ button{
 button:hover{
     background-color: #25074D;
     color: white;
-
 }
 .carac-list{
     padding-top: 120px;
@@ -150,7 +154,6 @@ button:hover{
 }
 .seccion-proyec{
     background-color: #270F55;
-    padding: 20px;
     padding-top: 80px;
     padding-bottom: 60px;
     align-content: center;
@@ -170,6 +173,16 @@ button:hover{
 .proyecto{
     list-style: none;
     padding-bottom: 40px;
+    color: transparent;
+    background-color: transparent;
+}
+.proyecto :hover{
+    border-radius: 10px;
+    background-color: #863AFF66;
+    padding-bottom: 20px;
+}
+.img-proyect{
+    width: auto;
 }
 .descripcion{
     color: white;
@@ -205,6 +218,7 @@ footer{
 .botones-footer{
     text-decoration: none;
     list-style: none;
+    width: 120px;
 }
 .footer-boton{
     align-content: flex-start;
@@ -223,7 +237,7 @@ footer{
 /* PORTAFOLIO*/
 
 .banner-proyectos{
-    background-image: url("../imagenes/banner-proyectos.png");
+    background-image: url("../../imagenes/banner-proyectos.png");
     height: 600px;
     width: 100%;
     margin: 0px;
